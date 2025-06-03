@@ -1,0 +1,405 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+.badr
+{
+    width: 2%;
+}  
+
+.search-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid #333;
+    width: 300px;
+    padding: 5px 10px;
+    border-radius: 3px;
+    background-color: white;
+  }
+  
+  .search-icon {
+    margin-right: 8px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+.search-container input {
+    border: none;
+    outline: none;
+    font-size: 14px;
+    width: 100%;
+    position: relative;
+    left: 10px;
+  }
+  
+
+.bass{
+    position: relative;
+    right: 80px;
+    font-size: 14px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: sans-serif;
+}
+.navbareN
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 30px ;
+}
+
+
+.pipo
+{
+    font-family: sans-serif;
+}
+
+.section1gauche span:nth-child(2)
+{
+    color: rgb(33, 150, 3);
+    font-family: "DM Sans", sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+}
+.guch112 span{
+    font-size: 60px;
+    font-family: "DM Sans", sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    
+}
+.section1droite img
+{
+    width: 73%;
+    position: relative;
+    left: 130px;
+}
+
+
+.section1gauche button
+{
+    border: none;
+    background-color: #000000;
+    color: white;
+    
+    padding: 0.8rem 2.5rem;
+    font-size: 15px;
+    font-weight: 300;
+    width: max-content;
+}
+.section1gauche
+{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+}
+.section1{
+    display: flex;
+    align-items: center;
+    
+    justify-content: space-around;
+    padding-top: 30px ;
+    background: linear-gradient(to bottom, #ffffff, #fff4c7); /* blanc vers jaune clair */
+    height:90vh;
+}
+
+.cc{
+   position: relative;
+   left: 50px;
+}
+.hhh
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.section2
+{
+   
+    padding-top: 60px;
+    
+    height: 30vh;
+}
+
+
+
+
+
+
+
+.sec3gauche
+{
+    height: 450px;
+    width: 930px;
+    background-color:#DEF1BD;
+    
+    display: flex;
+    align-items: center;
+    margin-left: 49px;
+   
+
+}
+
+.hhay
+{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    padding-top: 60px;
+}
+
+.ezez
+{
+    width: 70%;
+    height: 80%;
+}
+
+.sec3droite
+{
+    height: 450px;
+    width: 460px;
+    background-color:#FDF8D0;
+    
+}
+
+.sec3droite img{
+    width: 80%;
+   
+}
+
+.nas
+{
+    border: none;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    
+    padding: 0.8rem 2.5rem;
+    font-size: 15px;
+    font-weight: 300;
+    width: max-content; ;
+}
+
+.sec3droite .szsz h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    position: relative;
+    left: 150px;
+    padding-top: 30px;
+}
+
+
+.section3
+{
+    height: 70vh;
+    display: flex;
+    
+    gap: 15px;
+    
+    
+}
+
+
+.sec4g img{
+    width: 75%;
+    margin-left: 80px;
+}
+.zdz
+{
+    display: flex;
+    
+    background-color: rgb(156, 224, 96);
+    height:370px;
+    width:1130px;
+    margin-left: 180px;
+    padding-top: 70px;
+}
+
+
+.se4D p
+{
+    font-family: sans-serif;
+    color: #eef2e8;
+}
+.se4D button
+{
+    width: max-content;
+    border: none;
+    background-color: #f8f8f8;
+    color: rgb(0, 0, 0);
+    
+    padding: 0.8rem 2.5rem;
+    font-size: 15px;
+    font-weight: 300;
+    width: max-content; ;
+    
+}
+
+.se4D span{
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+.se4D
+{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    margin-left: 160px;
+}
+.section4
+{
+   
+    height: 50vh;
+    padding-top: 90px ;
+  
+    
+}
+
+
+
+
+  
+@media (max-width: 1024px) {
+    .navbareN {
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+    }
+    .search-container {
+      width: 90%;
+    }
+    .section1 {
+      flex-direction: column;
+      height: auto;
+      padding: 20px;
+      gap: 30px;
+    }
+    .section1droite img {
+      left: 0;
+      width: 90%;
+    }
+    .section1gauche span:nth-child(2),
+    .guch112 span {
+      font-size: 40px;
+    }
+    .hhh {
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    .section2 {
+      height: auto;
+      margin-right: 0;
+    }
+    .section3 {
+      flex-direction: column;
+      height: auto;
+      margin-left: 0;
+    }
+    .sec3gauche,
+    .sec3droite {
+      width: 100%;
+    }
+    .sec3droite .szsz h3 {
+      left: 0;
+      text-align: center;
+    }
+    .sec3droite .szsz img {
+        width: 30%;
+        margin-left: 350px;
+        padding-top: 30px;
+      }
+      .search-container input {
+        width: max-content;
+      }
+    .zdz {
+      flex-direction: column;
+      align-items: center;
+      margin-left: 0;
+      width: 100%;
+      height: auto;
+      padding: 30px;
+    }
+    
+.section1gauche button
+{
+    margin-left:59px ;
+}
+    .sec4g img {
+      margin-left: 0;
+      width: 100%;
+    }
+    .se4D {
+      margin-left: 0;
+      text-align: center;
+      gap: 30px;
+    }
+  }
+  
+
+
+.section45
+{
+    height: 40px;
+}
+
+
+
+
+@media (max-width: 768px) {
+    body {
+        width: 100%;
+        overflow-x: hidden;
+      }
+    .bass {
+      right: 0;
+      font-size: 18px;
+      text-align: center;
+    }
+    .search-container {
+      width: 100%;
+    }
+    .section1gauche span:nth-child(2),
+    .guch112 span {
+      font-size: 30px;
+    }
+    .section1gauche p {
+      font-size: 14px;
+    }
+    .section1gauche button,
+    .se4D button,
+    .nas {
+      width: 100%;
+      padding: 12px;
+    }
+    
+.section1gauche button
+{
+    
+    width: max-content;
+}
+    .hhay {
+      gap: 30px;
+    }
+    .sec3droite .szsz h3 {
+      font-size: 20px;
+    }
+    .se4D span {
+      font-size: 22px;
+    }
+    .se4D p {
+      font-size: 14px;
+    }
+  }
+  
+  /* Fin des media queries */
+  
