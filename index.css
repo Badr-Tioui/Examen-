@@ -134,6 +134,49 @@ body {
 
 
 
+.sase
+{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 60px;
+}
+
+
+
+.ezs
+{
+    height: 110px;
+    width: 120px;
+    background-color: #F8E86621;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+    margin-left: 12px;
+}
+
+.za{
+    width: 45%;
+    margin-left: 29px;
+    
+}
+.ezs p
+{
+    text-align: center;
+}
+
+.baoo{
+    font-family: sans-serif;
+}
+.section3
+{
+    height: 40vh;
+}
+
+
+
+
 
 
 .sec3gauche
@@ -239,12 +282,12 @@ body {
 .zdz
 {
     display: flex;
-    
-    background-color: rgb(156, 224, 96);
-    height:490px;
+    height:520px;
     width:1130px;
-    margin-left: 180px;
+    background-color: rgb(174, 246, 112);  
+    margin-left: 130px;
     padding-top: 70px;
+    padding: 1rem 3rem;
 }
 
 
@@ -289,6 +332,52 @@ body {
 }
 
 
+
+
+
+
+
+.dzaaa
+{
+    display: flex;
+    align-items: center;
+   gap: 30px;
+}
+
+.ZEO
+{
+    font-family: sans-serif;
+}
+.sectiion5
+{
+    padding-top: 170px;
+    background: linear-gradient(to bottom, #ffffff, #fff4c7); /* blanc vers jaune clair */
+    height:100vh;
+    
+}
+
+
+
+
+
+.Dze
+{
+    padding-top: 130px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.ZDZSA{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.zeez
+{
+    padding-top: 32px;
+}
 
 .footer {
     background-color: white;
