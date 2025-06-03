@@ -484,147 +484,294 @@ body {
     color: #666;
 }
 
-@media (max-width: 768px) {
+
+
+
+/* MOBILE STYLES */
+@media (max-width: 500px) {
+    /* Navigation */
+
+
+    .toggle
+    {
+        height: 6px;
+        width: 3px;
+        background-color: #4CAF50;
+    }
+    .navbareN {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        padding: 15px 0;
+    }
+
+    .badr {
+        width: 40px;
+    }
+
+    .bass {
+        position: static;
+        margin: 10px 0;
+    }
+
+    .search-container {
+        width: 90%;
+        margin: 10px 0;
+    }
+
+    /* Hero Section */
+    .section1 {
+        flex-direction: column;
+        height: auto;
+        padding: 30px 15px;
+    }
+
+    .section1droite img {
+        width: 100%;
+        position: static;
+        margin-top: 20px;
+    }
+
+    .guch112 span {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .section1gauche {
+        align-items: center;
+        text-align: center;
+    }
+
+    /* Features */
+    .section2 {
+        height: auto;
+        padding: 30px 0;
+    }
+
+    .hhh {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .cc {
+        position: static;
+    }
+
+    /* Categories */
+    .sase {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .ezs {
+        margin: 10px;
+    }
+
+    /* Promo Sections */
+    .section3 {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .sec3gauche,
+    .sec3droite {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+
+    .sec3droite .szsz h3 {
+        position: static;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    .sec3droite img {
+        width: 60%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    /* Products */
+    .Dze, .ZDZSA {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .carr, .carrE {
+        margin: 15px 0;
+    }
+
+    /* Footer */
     .footer-sections {
         flex-direction: column;
     }
-    
+
     .section {
         margin-bottom: 30px;
     }
 }
 
 
-
-  
-@media (max-width: 1024px) {
+/* IPAD STYLES */
+@media (min-width: 768px) and (max-width: 1024px) {
+    /* Navigation */
     .navbareN {
-      flex-wrap: wrap;
-      gap: 10px;
-      justify-content: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        padding: 20px;
     }
+
     .search-container {
-      width: 90%;
+        width: 80%;
+        order: 1;
     }
+
+    /* Hero Section */
     .section1 {
-      flex-direction: column;
-      height: auto;
-      padding: 20px;
-      gap: 30px;
+        flex-direction: column;
+        height: auto;
+        padding: 40px 20px;
     }
+
     .section1droite img {
-      left: 0;
-      width: 90%;
+        width: 70%;
+        position: static;
+        margin-top: 30px;
     }
-    .section1gauche span:nth-child(2),
-    .guch112 span {
-      font-size: 40px;
-    }
+
+    /* Features */
     .hhh {
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 40px;
     }
-    .section2 {
-      height: auto;
-      margin-right: 0;
+
+    /* Categories */
+    .sase {
+        justify-content: space-evenly;
     }
+
+    /* Promo Sections */
     .section3 {
-      flex-direction: column;
-      height: auto;
-      margin-left: 0;
+        flex-direction: column;
+        height: auto;
     }
+
     .sec3gauche,
     .sec3droite {
-      width: 100%;
-    }
-    .sec3droite .szsz h3 {
-      left: 0;
-      text-align: center;
-    }
-    .sec3droite .szsz img {
-        width: 30%;
-        margin-left: 350px;
-        padding-top: 30px;
-      }
-      .search-container input {
-        width: max-content;
-      }
-    .zdz {
-      flex-direction: column;
-      align-items: center;
-      margin-left: 0;
-      width: 100%;
-      height: auto;
-      padding: 30px;
-    }
-    
-.section1gauche button
-{
-    margin-left:59px ;
-}
-    .sec4g img {
-      margin-left: 0;
-      width: 100%;
-    }
-    .se4D {
-      margin-left: 0;
-      text-align: center;
-      gap: 30px;
-    }
-  }
-  
-
-
-
-
-
-
-@media (max-width: 768px) {
-    body {
         width: 100%;
-        overflow-x: hidden;
-      }
-    .bass {
-      right: 0;
-      font-size: 18px;
-      text-align: center;
+        height: auto;
     }
-    .search-container {
-      width: 100%;
-    }
-    .section1gauche span:nth-child(2),
-    .guch112 span {
-      font-size: 30px;
-    }
-    .section1gauche p {
-      font-size: 14px;
-    }
-    .section1gauche button,
-    .se4D button,
-    .nas {
-      width: 100%;
-      padding: 12px;
-    }
-    
-.section1gauche button
-{
-    
-    width: max-content;
-}
-    .hhay {
-      gap: 30px;
-    }
+
     .sec3droite .szsz h3 {
-      font-size: 20px;
+        position: static;
+        text-align: center;
+        padding: 30px 0;
     }
-    .se4D span {
-      font-size: 22px;
+
+    .sec3droite img {
+        width: 50%;
+        margin: 0 auto;
+        display: block;
     }
-    .se4D p {
-      font-size: 14px;
+
+    /* Products */
+    .Dze, .ZDZSA {
+        flex-wrap: wrap;
+        justify-content: center;
     }
-  }
-  
-  /* Fin des media queries */
+
+    .carr, .carrE {
+        width: 45%;
+        margin: 15px;
+    }
+
+    /* Footer */
+    .footer-sections {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
