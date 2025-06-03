@@ -153,8 +153,8 @@ body {
 {
     display: flex;
     flex-direction: column;
-    gap: 80px;
-    padding-top: 60px;
+    gap: 10px;
+    
 }
 
 .ezez
@@ -173,9 +173,32 @@ body {
 
 .sec3droite img{
     width: 80%;
+    margin-left: 46px;
    
 }
 
+.SASA
+{
+    font-family: sans-serif;
+    font-size: 20px;
+    padding-bottom: 20px;
+    font-weight: lighter;
+}
+
+.zaz
+{
+    font-family: sans-serif;
+   color: #347c37;
+   font-size: 43px;
+}
+
+
+.sec3gauche span{
+    font-family: sans-serif;
+    font-size: 50px;
+    padding-bottom: 20px;
+    
+}
 .nas
 {
     border: none;
