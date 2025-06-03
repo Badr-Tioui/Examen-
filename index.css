@@ -4,10 +4,7 @@
     margin: 0;
 }
 
-body {
-    width: 100%;
-    overflow-x: hidden;
-  }
+
 .badr
 {
     width: 2%;
@@ -227,7 +224,10 @@ body {
     padding-bottom: 20px;
     font-weight: lighter;
 }
-
+body {
+    width: 100%;
+    overflow-x: hidden;
+  }
 .zaz
 {
     font-family: sans-serif;
@@ -497,6 +497,9 @@ body {
         height: 6px;
         width: 3px;
         background-color: #4CAF50;
+        display: flex;
+        position: absolute;
+
     }
     .navbareN {
         flex-direction: column;
